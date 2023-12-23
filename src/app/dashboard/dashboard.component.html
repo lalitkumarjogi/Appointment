@@ -1,0 +1,116 @@
+
+
+    <!-- top-bar start  -->
+   
+       
+    <!-- top-bar end  -->
+    <!-- card start  -->
+    <div class="cards" *ngFor=" let item of arrtlist">
+        <div class="card">
+            <div class="card-content">
+                <div class="number">{{item.totalPatients}}</div>
+                <div class="card-name">TotalPatients</div>
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-content">
+                <div class="number">{{item.todaysTotalAppointments}}</div>
+                <div class="card-name">TodaysTotalAppointments</div>
+            </div>
+        </div>
+      
+        <div class="card">
+            <div class="card-content">
+                <div class="number">{{item.totalAppointments}}</div>
+                <div class="card-name">TotalAppointments</div>
+            </div>
+        </div>
+      
+        <div class="card">
+            <div class="card-content">
+                <div class="number">{{item.todaysTotalDoneAppointments}}</div>
+                <div class="card-name">YodaysTotalDoneAppointments</div>
+            </div>
+        </div>
+      
+    
+        </div>
+    
+    <!-- cards end  -->
+    <!-- table start  -->
+
+<div class="tables">
+    <!-- last appoinments start  -->
+   
+    <!-- last Appointments end  -->
+    <!-- doctor visit start  -->
+    <div class="doctors-visiting">
+        <div class="heading">
+            <h2>Doctors visiting</h2>
+        </div>
+        <table class="visiting">
+            <thead>
+                <td>Photo</td>
+                <td>Name</td>
+                <td>Visit time</td>
+                <td>Details</td>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>
+                        <div class="img-box-small">
+                            <img src="./assets/doctor-icon.png" alt="">
+                        </div>
+                    </td>
+                    <td>Hemel</td>
+                    <td>10:00</td>
+                    <td><i class="far fa-eye"></i></td>
+                </tr>
+                <tr>
+                    <td>
+                        <div class="img-box-small">
+                            <img src="assets/doctor-2.webp" alt="">
+                        </div>
+                    </td>
+                    <td>Hemel</td>
+                    <td>10:00</td>
+                    <td><i class="far fa-eye"></i></td>
+                </tr>
+                <tr>
+                    <td>
+                        <div class="img-box-small">
+                            <img src="./assets/doctor-3.webp" alt="">
+                        </div>
+                    </td>
+                    <td>Hemel</td>
+                    <td>10:00</td>
+                    <td><i class="far fa-eye"></i></td>
+                </tr>
+           
+                <tr>
+                    <td>
+                        <div class="img-box-small">
+                            <img src="./assets/doctor-5.jpeg" alt="">
+                        </div>
+                    </td>
+                    <td>Hemel</td>
+                    <td>10:00</td>
+                    <td><i class="far fa-eye"></i></td>
+                </tr>
+                <tr>
+                    <td>
+                        <div class="img-box-small">
+                            <img src="./assets/doctor-6.png" alt="">
+                        </div>
+                    </td>
+                    <td>Hemel</td>
+                    <td>10:00</td>
+                    <td><i class="far fa-eye"></i></td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    <!-- doctor visit end  -->
+</div>
+    <!-- table end -->
+    <!-- main end-->
