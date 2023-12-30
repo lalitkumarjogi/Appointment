@@ -26,7 +26,7 @@ body {
     justify-content:center;
  }
 
- .left_division{
+ /* .left_division{
     
     background-color:#e4d7d7;
     width: 45%;
@@ -37,8 +37,8 @@ body {
     align-items: center;
     background-size: 90rem;
     opacity: 0.8;
- }
- .right_division{
+ } */
+ /* .right_division{
     background-color:azure;
     width: 50%;
     display: flex;
@@ -47,7 +47,7 @@ body {
     align-items: center;
 
     
- }
+ } */
 
  .first,.second,.third, .fourth{
     display: flex;
